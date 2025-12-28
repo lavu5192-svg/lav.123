@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int N,K;
+    scanf("%d %d",&N,&K);
+    int total_minutes =N*K;
+    int hours = total_minutes/60;
+    int minutes =total_minutes %60;
+    printf("%d %d\n", hours, minutes);
+    return 0;
+    }
